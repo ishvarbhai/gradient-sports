@@ -1,0 +1,605 @@
+@media (max-width: 1200px) {
+    .header .navbar {
+        gap: 0px;
+    }
+
+    .header .navbar .nav {
+        gap: 110px;
+    }
+
+    .header .navbar .nav .ragister-btn {
+        margin-right: 40px;
+    }
+
+    .header .navbar .nav .navlist ul {
+        gap: 24px;
+    }
+
+    .header .navbar .logo {
+        height: 95px;
+        width: 265px;
+    }
+
+    .Challenge .Challenge-head h2 {
+        margin-top: 70px;
+        font-size: 75px;
+    }
+
+    .Challenge .Challenge-head .star1 {
+        /* margin-left: 100px;
+        margin-bottom: -40px; */
+        left: 60px;
+        bottom: -45px;
+    }
+
+    .Challenge .Challenge-head .star2 {
+        /* margin-right: 140px; */
+        top: 4px;
+        right: 75px;
+    }
+
+    .Challenge .achivement {
+        flex-wrap: wrap;
+    }
+
+    .Challenge .cycle img {
+        max-width: 800px;
+    }
+
+    .about .about-section {
+        gap: 140px;
+    }
+
+    .services {
+        padding-top: 100px;
+    }
+
+    .services .services-section {
+        gap: 10px;
+    }
+
+    .Professional .Professional-section .Professional-image .image-2 {
+        margin-left: -123px;
+    }
+
+    .Professional .Professional-section {
+        gap: 75px;
+    }
+
+    .Professional {
+        padding-bottom: 110px;
+    }
+
+    .plan .plan-grid .plan-grid-section {
+        padding: 20px 50px;
+    }
+
+    .people .people-grid {
+        gap: 17px;
+        padding: 56px;
+        margin-top: 92px;
+        margin-bottom: 94px;
+    }
+
+    .people .people-grid .people-card {
+        padding: 15px 25px 0px;
+    }
+
+    .people .people-grid .people-card .people-card-image {
+        margin-bottom: 35px;
+    }
+
+    .footer .footer-section {
+        display: flex;
+        justify-content: space-between;
+        padding-top: 51px;
+    }
+}
+
+@media (max-width: 992px) {
+    .header .navbar .nav {
+        gap: 50px;
+    }
+
+    .header .navbar .nav .navlist {
+        display: none;
+    }
+
+    .header .navbar .nav .navlist ul {
+        position: absolute;
+        background-color: rgba(0, 0, 0, 0.788);
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 329px;
+        right: 0;
+        top: 0;
+        z-index: 1;
+    }
+
+    .header .navbar .nav .bar-btn {
+        display: block;
+        font-size: 30px;
+        z-index: 99;
+    }
+
+
+    .Challenge .Challenge-head h2 {
+        font-size: 70px;
+    }
+
+    .Challenge .Challenge-head .star2 {
+        /* margin-top: -105px;
+        margin-right: 75px; */
+        right: 0px;
+    }
+
+    .Challenge .Challenge-head .star1 {
+        /* margin-left: 44px;
+        margin-bottom: -40px; */
+        left: 0px;
+    }
+
+    .Challenge {
+        padding-bottom: 0px;
+    }
+
+    .about .about-section {
+        flex-wrap: wrap;
+    }
+
+    .services .services-head p {
+        margin-bottom: 10px;
+    }
+
+    .Professional .Professional-section {
+        flex-wrap: wrap;
+    }
+
+    .plan .plan-grid .plan-grid-section {
+        padding: 20px 20px;
+        margin-right:0px;
+    }
+
+    .people .people-grid {
+        padding: 30px;
+        flex-wrap: wrap;
+    }
+
+    .people .people-grid .people-card {
+        padding: 10px 10px 0px;
+    }
+
+    .people .people-grid .people-card .people-card-image {
+        margin-bottom: 15px;
+    }
+}
+
+@media (max-width: 768px) {
+    .header .navbar {
+        gap: 0px;
+    }
+
+    .Challenge .Challenge-head h2 {
+        font-size: 50px;
+        margin-top: 70px;
+        margin-bottom: 50px;
+    }
+
+    .Challenge .cycle img {
+        max-width: 400px;
+    }
+
+    .Challenge .Challenge-head .star1 {
+        /* margin-left: 145px;
+        margin-bottom: -50px; */
+        bottom: -49px;
+        left: 0px;
+    }
+
+    .Challenge .Challenge-head .star2 {
+        /* margin-right: 145px;
+        margin-top: -230px; */
+        right: 0px;
+    }
+
+    .about .about-section .about-image {
+        margin-left: 50px;
+    }
+
+    .about .about-section {
+        padding: 40px 0 0;
+    }
+    .about .about-academy h3 {
+        font-size: 45px;
+    }
+    .about .about-academy .about-nub .about-nub-section p {
+        font-size: 16px;
+    }
+
+    .services {
+        padding-top: 60px;
+    }
+
+    .services .services-head h3 {
+        font-size: 45px;
+    }
+
+    .services .services-section {
+        flex-wrap: wrap;
+    }
+
+    .services .services-section .services-grid {
+        text-align: center;
+        margin-bottom: 10px;
+        padding: 30px 30px 40px 40px;
+    }
+    .services .services-section .services-grid:hover {
+        padding: 30px 30px 40px 40px;
+    }
+    .services .services-btn {
+        margin: 0 auto 64px;
+    }
+
+    .plan .plan-grid {
+        gap: 20px;
+        flex-wrap: wrap;
+    }
+    .plan .plan-grid .plan-grid-section {
+        margin-right: 0px;
+    }
+    .plan .plan-grid .plan-grid-section ul li {
+        padding-left: 10px;
+        padding-bottom: 15px;
+    }
+    .plan .plan-grid .plan-grid-section .plan-btn {
+        margin: 20px auto 0;
+    }
+    .blog .blog-grid {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .footer .footer-section {
+        flex-wrap: wrap;
+        padding-top: 20px;
+    }
+    .footer .copy {
+        padding: 35px 0 35px;
+    }
+    .Professional .Professional-section .Professional-image .image-2 .Professional-star {
+        top: -44px;
+        right: -9px;
+    }
+
+    .Professional .Professional-section .Professional-couches h2 {
+        font-size: 45px;
+    }
+
+    .Professional .Professional-section {
+        gap: 40px;
+    }
+
+    .Professional {
+        padding-bottom: 55px;
+    }
+
+    .plan .plan-head h2 {
+        font-size: 45px;
+    }
+
+    .plan .plan-head {
+        margin-bottom: 35px;
+    }
+
+    .people .people-grid {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+    .people .people-grid .people-trust h2 {
+        font-size: 45px;
+    }
+    .people .people-grid .people-trust p {
+        margin-bottom: 45px;
+    }
+    .blog .blog-head-section .blog-head h2 {
+        font-size: 45px;
+    }
+    .blog .blog-grid {
+        padding-bottom: 65px;
+    }
+}
+
+@media (max-width: 576px) {
+    .header .navbar {
+        gap: 0px;
+    }
+
+    .header .navbar .nav .ragister-btn {
+        height: 34px;
+        width: 88px;
+        font-size: 10px;
+        padding: 7px 10px 12px 14px;
+        margin-right: 23px;
+    }
+
+    .header .navbar .nav .bar-btn {
+        margin-left: 31px;
+        font-size: 20px;
+    }
+
+    .header .navbar .nav {
+        gap: 10px;
+    }
+
+    .header .navbar .logo h1 {
+        font-size: 25px;
+    }
+
+    .header .navbar .logo {
+        height: 59px;
+        width: 206px;
+    }
+
+    .Challenge .achivement {
+        gap: 25px;
+    }
+
+    .Challenge .Challenge-head .star1 {
+        /* margin-left: 13px;
+        margin-bottom: -55px; */
+        bottom: -60px;
+        left: -17px;
+    }
+
+    .Challenge .Challenge-head h2 {
+        font-size: 30px;
+    }
+
+    .Challenge .Challenge-head .star2 {
+        /* margin-right: 33px;
+        margin-top: -162px; */
+        right: 0px;
+    }
+
+    .Challenge .achivement .achivement-section .achivement001 {
+        padding: 11px 5px 11px 11px;
+        gap: 25px;
+    }
+
+    .Challenge .cycle img {
+        max-width: 255px;
+    }
+
+    .Challenge .achivement .achivement-section .achivement001 .course-det h3 {
+        font-size: 20px;
+    }
+
+    .Challenge .achivement .achivement-section .achivement001 .course-det p {
+        font-size: 12px;
+    }
+
+    .about .about-academy h3 {
+        font-size: 35px;
+    }
+
+    .about .about-section {
+        padding: 40px 0 0;
+    }
+
+    .about .about-academy .about-btn {
+        margin-bottom: 30px;
+    }
+
+    .about .about-academy .about-nub .about-nub-section p {
+        font-size: 12px;
+        margin-bottom: 0;
+    }
+
+    .about .about-section .about-image {
+        margin-left: 140px;
+        margin-top: 70px;
+    }
+
+    .about .about-academy .about-nub {
+        gap: 35px;
+        flex-wrap: wrap;
+    }
+
+    .about .about-section .about-image .about-image01 {
+        left: -130px;
+    }
+
+    .about .about-section .about-image .about-image02 {
+        left: -67px;
+    }
+
+    .about .about-section .about-image .about-image-star {
+        top: -51px;
+        left: -181px;
+    }
+
+    .services {
+        padding-top: 50px;
+    }
+
+    .services .services-head h3 {
+        font-size: 30px;
+    }
+
+    .services .services-head p {
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+
+    .services .services-btn {
+        margin: 0 auto 57px;
+    }
+
+    .services .services-section .services-grid {
+        padding: 25px 30px 25px 40px;
+        transition: .5s all ease;
+
+    }
+
+    .services .services-section .services-grid:hover {
+        padding: 25px 30px 25px 40px;
+    }
+
+    .Professional .Professional-section .Professional-couches h2 {
+        font-size: 30px;
+        margin-bottom: 15px;
+    }
+
+    .Professional .Professional-section .Professional-couches p {
+        font-size: 15px;
+        margin-bottom: 20px;
+    }
+
+    .Professional .Professional-section {
+        gap: 35px;
+    }
+
+    .Professional {
+        padding-bottom: 60px;
+    }
+
+    .people .people-grid .people-card-section {
+        flex-wrap: wrap;
+        justify-content: start;
+        gap: 15PX;
+    }
+
+    .plan .plan-head {
+        margin-bottom: 25px;
+    }
+
+    .plan .plan-head h2 {
+        font-size: 35px;
+    }
+
+    .plan .plan-grid .plan-grid-section {
+        padding: 10px 10px;
+    }
+
+    .plan .plan-grid .plan-grid-section:hover {
+        padding: 10px 20px;
+    }
+
+    .plan .plan-grid .plan-grid-section ul li {
+        padding-left: 5px;
+        padding-bottom: 10px;
+    }
+
+    .plan .plan-grid .plan-grid-section .plan-btn .plan-btn01 {
+        margin: 22px auto 0;
+    }
+
+    .people .people-grid {
+        margin-top: 30px;
+        margin-bottom: 55px;
+    }
+
+    .people .people-grid .people-trust p {
+        margin-bottom: 45px;
+        font-size: 15px;
+    }
+
+    .people .people-grid .people-trust h2 {
+        font-size: 30px;
+    }
+
+    .people .people-grid .people-card p {
+        margin-bottom: 5px;
+        font-size: 12px;
+    }
+
+    .blog .blog-head-section .blog-head h2 {
+        font-size: 30px;
+    }
+
+    .blog .blog-head-section .blog-head p {
+        font-size: 15px;
+    }
+
+    .blog .blog-grid {
+        padding-bottom: 55px;
+    }
+    .form .registration .form-head h2 {
+        font-size: 35px;
+    }
+    .form .registration .form-head {
+        margin-bottom: 20px;
+    }
+    .form .registration {
+        width: 300px;
+        margin-bottom: 40px;
+    }
+    .form .registration .sign .sign012 {
+        flex-wrap: wrap;
+    }
+    .form .registration .sign .sign012 .fname {
+        width: 100%;
+    }
+    .form .registration .sign .sign012 {
+        gap: 0px;
+    }
+    .form .registration .sign .sign01 input {
+        padding: 10px 0;
+        padding-left: 20px;
+    }
+    .form .registration .sign .sign012 .fname input {
+        padding: 10px 0 ;
+        padding-left: 20px;
+    }
+    .form .registration .sign .country select {
+        padding: 10px 0;
+    }
+    .footer .footer-section .footer-logo-section .footer-logo h2 {
+        font-size: 30px;
+    }
+
+    .footer .footer-section .footer-logo-section p {
+        font-size: 15px;
+    }
+
+    .footer .copy {
+        padding: 25px 0 25px;
+    }
+
+    .footer .footer-section .quick h2 {
+        margin-bottom: 15px;
+    }
+
+    .footer .footer-section .quick .quick-list ul {
+        margin-bottom: 30px;
+    }
+
+    .footer .footer-section .footer-logo-section .footer-image {
+        margin-top: 25px;
+    }
+
+    .footer .footer-section .quick .subscribe h2 {
+        margin-bottom: 20px;
+    }
+
+    .footer .footer-section .contact .contact-list ul {
+        margin-top: 15px;
+    }
+
+    .footer .footer-section .quick .subscribe .sign input {
+        width: 285px;
+    }
+
+    .about .about-academy .about-nub .about-star {
+        right: 40px;
+    }
+
+    .Professional .Professional-section .Professional-image .image-2 .Professional-star {
+
+        top: -48px;
+        right: -3px;
+    }
+}
